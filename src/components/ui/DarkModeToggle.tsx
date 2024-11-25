@@ -10,6 +10,7 @@ const DarkModeToggle: React.FC = () => {
       <button
         onClick={toggleDarkMode}
         className="rounded-full border border-gray-500 p-2 text-gray-500 dark:border-white dark:text-white"
+        aria-label="Dark mode switch"
       >
         {isDarkMode ? <FaMoon /> : <GoSun />}
       </button>

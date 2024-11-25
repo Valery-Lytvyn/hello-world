@@ -18,6 +18,7 @@ const Pagination: React.FC<PaginationProps> = ({
         onClick={() => pageChangeHandler(currentPage - 1)}
         disabled={currentPage === 1}
         className="rounded border px-4 py-2"
+        aria-label="Previous Page"
       >
         <GrFormPrevious />
       </button>
@@ -28,6 +29,7 @@ const Pagination: React.FC<PaginationProps> = ({
         onClick={() => pageChangeHandler(currentPage + 1)}
         disabled={currentPage === totalPages}
         className="rounded border px-4 py-2"
+        aria-label="Next Page"
       >
         <GrFormNext />
       </button>

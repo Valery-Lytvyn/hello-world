@@ -2,7 +2,7 @@
   "name": "vite_hello_world",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://valery-lytvyn.github.io/hello-world",
+  "homepage": "https://Valery-Lytvyn.github.io/hello-world",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
